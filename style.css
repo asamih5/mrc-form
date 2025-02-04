@@ -125,18 +125,11 @@
 }
 #mrc_webform span.mrc_webform_req,
 #mrc_download span.mrc_webform_req {
-  padding: 2px 4px !important;
-  margin: 2px !important;
-  display: inline-block !important;
-  font-weight: normal !important;
-  border-radius: 3px;
-  font-size: 12px;
   display: none !important;
 }
 #mrc_webform span.mrc_webform_req2,
 #mrc_download span.mrc_webform_req2 {
   padding: 2px 4px !important;
-  margin: 2px 4px 2px 2px !important;
   display: inline-block !important;
   font-weight: normal !important;
   border-radius: 3px;
