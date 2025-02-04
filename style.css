@@ -137,7 +137,7 @@
 }
 #mrc_webform div.mrc_webform_q span,
 #mrc_download div.mrc_webform_q span {
-  opacity: 0;
+  display: none !important;
 }
 #mrc_webform .mrc_webform_row .mrc_webform_a label,
 #mrc_download .mrc_webform_row .mrc_webform_a label {
