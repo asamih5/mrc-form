@@ -1,3 +1,4 @@
+/*
 #mrc_webform, #mrc_download {
   font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
   font-size: 14px !important;
@@ -451,7 +452,7 @@ button.mrc_webform_close {
   font-size: 14px;
   border-radius: 50px;
 }
-
+*/
 /* ツールチップのテキスト */
 .tooltip-text {
   opacity: 0; /* はじめは隠しておく */
