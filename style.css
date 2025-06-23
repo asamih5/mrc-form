@@ -498,3 +498,8 @@ button.mrc_webform_close {
 .select-box {
   display: inline-grid;
 }
+
+.example-text {
+  opacity: .9;
+  font-size: 12px;
+}
