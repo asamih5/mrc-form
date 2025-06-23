@@ -466,6 +466,7 @@ button.mrc_webform_close {
   color: #fff;
   border-radius: 3px;
   transition: 0.3s ease-in;
+  z-index: 1000;
 }
 
 /* ホバー時にツールチップ表示 */
