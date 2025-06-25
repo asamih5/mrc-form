@@ -108,9 +108,7 @@
   border-color: #AAA #CCC #CCC #AAA !important;
   padding: 2px !important;
   background-color: white !important;
-/*   width: auto !important; */
-  resize: vertical;
-  width:100%;
+  width: auto !important;
 }
 #mrc_webform .mrc_webform_row input[type='text'],
 #mrc_webform .mrc_webform_row input[type='date'],
