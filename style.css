@@ -29,6 +29,7 @@
   font-weight: bold !important;
   border: 1px solid #eee !important;
   padding: 5px 8px !important;
+  position: relative;
 }
 .mrc_webform_row .mrc_webform_a {
   font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
@@ -505,8 +506,4 @@ button.mrc_webform_close {
   opacity: .9;
   font-size: 12px;
   margin-bottom: 5px;
-}
-
-.mrc_webform_q {
-  position: relative;
 }
