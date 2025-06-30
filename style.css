@@ -497,13 +497,20 @@ button.mrc_webform_close {
   margin: 0 0 4px 0 !important;
 }
 
-.select-box {
+.example-box {
+  font-size: 12px;
+  font-weight: normal;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+/* .select-box {
   display: inline-grid;
   margin: 5px 0 15px;
 }
 
 .example-text {
-  opacity: .9;
+  opacity: .9; */
   font-size: 12px;
   margin-bottom: 5px;
 }
