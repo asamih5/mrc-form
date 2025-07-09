@@ -515,3 +515,17 @@ button.mrc_webform_close {
   font-size: 12px;
   margin-bottom: 5px;
 }
+
+.has-tooltip::after {
+  content: "供試品サイズ、試験内容によっては、実施できるラボが限定される可能性がございます";
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  display: none;
+}
+
+.has-tooltip:hover::after {
+  display: block;
+}
