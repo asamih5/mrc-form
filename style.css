@@ -516,14 +516,25 @@ button.mrc_webform_close {
   margin-bottom: 5px;
 }
 
+.has-tooltip {
+  position: relative; /* ツールチップの位置基準 */
+  cursor: help; /* ツールチップっぽいカーソル */
+}
+
 .has-tooltip::after {
-  content: "供試品サイズ、試験内容によっては、実施できるラボが限定される可能性がございます";
+  content: "供試品サイズ、試験内容によっては、実施できるラボが限定される可能性がございます"; /* ツールチップの中身 */
   position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: 8px;
+  padding: 4px 8px;
   background: #333;
   color: #fff;
-  padding: 4px;
+  font-size: 12px;
+  white-space: nowrap;
   border-radius: 4px;
   display: none;
+  z-index: 10;
 }
 
 .has-tooltip:hover::after {
