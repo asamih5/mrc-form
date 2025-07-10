@@ -557,12 +557,12 @@ button.mrc_webform_close {
   display: inline-block;
 }
 
-.question{
+.question-req{
   position: relative;
   margin-left: 2.5em; 
 }
 
-.question::before{
+.question-req::before{
   content: "必須"; /* ツールチップの中身 */
   position: absolute;
   display: inline-block; 
