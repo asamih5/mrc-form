@@ -518,7 +518,15 @@ button.mrc_webform_close {
 
 .has-tooltip {
   position: relative; /* ツールチップの位置基準 */
-  cursor: help; /* ツールチップっぽいカーソル */
+  cursor: help !important; /* ツールチップっぽいカーソル */
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #75c0a0;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
 }
 
 .has-tooltip::after {
@@ -527,14 +535,17 @@ button.mrc_webform_close {
   left: 100%;
   top: 0;
   margin-left: 8px;
-  padding: 4px 8px;
-  background: #333;
+  padding: 5px;
+  background: #454857;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.8em;
+  font-weight: normal;
   white-space: nowrap;
-  border-radius: 4px;
+  border-radius: 3px;
   display: none;
   z-index: 10;
+/*   transform: translate(3px, -10%); */
+  transition: 0.3s ease-in;
 }
 
 .has-tooltip:hover::after {
