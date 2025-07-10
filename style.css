@@ -490,7 +490,6 @@ button.mrc_webform_close {
 } */
 
 .title-q {
-  position: relative;
   font-size: 1.1em;
   letter-spacing: .1em;
   color: #333;
@@ -500,7 +499,11 @@ button.mrc_webform_close {
   margin: 0 0 4px 0 !important;
 }
 
-.title-q::after {
+.note {
+  position: relative;
+}
+
+.note::after {
   content: "※図面は一番最後に添付できます"; /* ツールチップの中身 */
   display: inline-block;
   position: absolute;
