@@ -490,6 +490,7 @@ button.mrc_webform_close {
 } */
 
 .title-q {
+  position: relative;
   font-size: 1.1em;
   display: inline-block;
   letter-spacing: .1em;
@@ -500,6 +501,19 @@ button.mrc_webform_close {
   margin: 0 0 4px 0 !important;
 }
 
+.title-q::after {
+  content: "※図面は一番最後に添付できます"; /* ツールチップの中身 */
+  position: absolute;
+/*   display: inline-block;  */
+  left:0;
+  top:0;
+  padding: 1px 4px;
+  margin: 0 4px 0 0;
+  font-size: 0.8em;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
 .example-box {
   font-size: 12px;
   font-weight: normal;
@@ -508,7 +522,7 @@ button.mrc_webform_close {
   padding: 5px;
 }
 
-/* .select-box {
+.select-box {
   display: inline-grid;
   margin: 5px 0 15px;
 }
@@ -545,26 +559,6 @@ button.mrc_webform_close {
 }
 
 .question{
-  position: relative;
-}
-
-.question::before{
-  content: "必須"; /* ツールチップの中身 */
-  position: absolute;
-  display: inline-block; 
-  left:-50px;
-  top:0;
-  padding: 1px 4px;
-  margin: 0 4px 0 0;
-  background: #be0000;
-  color: #fff;
-  font-size: 0.8em;
-  font-weight: normal;
-  white-space: nowrap;
-  border-radius: 3px;
-}
-
-.title-q{
   position: relative;
   margin-left:40px; 
 }
