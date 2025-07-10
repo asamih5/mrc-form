@@ -549,5 +549,5 @@ button.mrc_webform_close {
 }
 
 .has-tooltip:hover::after {
-  display: block;
+  display: inline-block;
 }
