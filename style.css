@@ -502,6 +502,7 @@ button.mrc_webform_close {
 
 .title-q::after {
   content: "※図面は一番最後に添付できます"; /* ツールチップの中身 */
+  display: inline-block;
   position: absolute;
   left: 100%;
   top: 15%;
@@ -558,7 +559,7 @@ button.mrc_webform_close {
 
 .question{
   position: relative;
-  margin-left: -2.5em; 
+  margin-left: 2.5em; 
 }
 
 .question::before{
