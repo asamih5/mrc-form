@@ -441,14 +441,15 @@ button.mrc_webform_close {
 }
 
 .tooltip-btn {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-    background-color: #75c0a0;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #75c0a0;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 5px;
 }
 
 .tooltip-text {
@@ -532,9 +533,7 @@ button.mrc_webform_close {
 .has-tooltip::after {
   content: attr(data-tooltip); /* ツールチップの中身 */
   position: absolute;
-  left: 100%;
   top: 0;
-  margin-left: 8px;
   padding: 5px;
   background: #454857;
   color: #fff;
@@ -544,7 +543,7 @@ button.mrc_webform_close {
   border-radius: 3px;
   display: none;
   z-index: 10;
-/*   transform: translate(3px, -10%); */
+  transform: translate(3px, -10%);
   transition: 0.3s ease-in;
 }
 
