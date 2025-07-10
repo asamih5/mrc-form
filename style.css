@@ -549,6 +549,10 @@ button.mrc_webform_close {
 .question::before{
   content: "必須"; /* ツールチップの中身 */
   position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  display: inline-block; 
   left:0;
   top:0;
   padding: 5px;
