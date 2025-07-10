@@ -520,12 +520,12 @@ button.mrc_webform_close {
 }
 
 .has-tooltip {
-  position: relative; /* ツールチップの位置基準 */
-  cursor: help !important; /* ツールチップっぽいカーソル */
+  position: relative;
+  cursor: help !important;
 }
 
 .has-tooltip::after {
-  content: attr(data-tooltip); /* ツールチップの中身 */
+  content: attr(data-tooltip);
   position: absolute;
   padding: 5px;
   background: #454857;
@@ -545,7 +545,7 @@ button.mrc_webform_close {
 }
 
 .question{
-  position: relative; /* ツールチップの位置基準 */
+  position: relative;
 }
 
 .question::before{
@@ -553,6 +553,27 @@ button.mrc_webform_close {
   position: absolute;
   display: inline-block; 
   left:-50px;
+  top:0;
+  padding: 1px 4px;
+  margin: 0 4px 0 0;
+  background: #be0000;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: normal;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+
+.title-q{
+  position: relative;
+  margin-left:40px; 
+}
+
+.question::before{
+  content: "必須"; /* ツールチップの中身 */
+  position: absolute;
+  display: inline-block; 
+  left:-40px;
   top:0;
   padding: 1px 4px;
   margin: 0 4px 0 0;
