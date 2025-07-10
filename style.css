@@ -537,7 +537,7 @@ button.mrc_webform_close {
   z-index: 10;
 }
 
-.has-tooltip::after .q2{
+.has-tooltip::after.q2{
   content: "供試品サイズ、試験内容によっては、実施できるラボが限定される可能性がございます"; /* ツールチップの中身 */
 }
 
