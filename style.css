@@ -511,7 +511,7 @@ button.mrc_webform_close {
 }
 
 .note::after {
-  content: "※図面は一番最後に添付できます"; /* ツールチップの中身 */
+  content: attr(data-note); /* ツールチップの中身 */
   display: inline-block;
   position: absolute;
   left: 100%;
