@@ -404,7 +404,6 @@ button.mrc_webform_close {
 .mrc_webform_error_required {
   font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
   font-size: 14px !important;
-/*   list-style-type: none !important; */
   list-style-type: inherit;
 }
 
